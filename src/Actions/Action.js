@@ -1,6 +1,7 @@
-export const increment = () => {
+export const increment = (num) => {
     return {
-        type: "INCREMENT"
+        type: "INCREMENT",
+        paylod: num
     }
 }
 
@@ -9,3 +10,18 @@ export const decrement = () => {
         type: "DECREMENT"
     }
 }
+
+
+
+export const MultiplyNumber = () => {
+    return {
+        type: "MULTIPLE"
+    }
+};
+
+export const DivideNumber = () => {
+
+    return {
+        type: "DIVIDE"
+    }
+};
