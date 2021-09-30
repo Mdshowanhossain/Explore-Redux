@@ -1,7 +1,7 @@
 export const increment = (num) => {
     return {
         type: "INCREMENT",
-        paylod: num
+        payload: num
     }
 }
 
@@ -11,11 +11,10 @@ export const decrement = () => {
     }
 }
 
-
-
-export const MultiplyNumber = () => {
+export const MultiplyNumber = (num) => {
     return {
-        type: "MULTIPLE"
+        type: "MULTIPLE",
+        payload: num
     }
 };
 
