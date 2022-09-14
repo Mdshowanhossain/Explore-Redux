@@ -89,6 +89,7 @@ const store = createStore(rooteRuducer);
 store.subscribe(() => {
   console.log(store.getState());
 });
+
 store.dispatch(getProducts());
 store.dispatch(addProduct("OSMAN"));
 
